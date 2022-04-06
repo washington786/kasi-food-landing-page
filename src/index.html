@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body class="text-gray-600">
+    <div> <!-- content container -->
+
+        <div class="bg-transparent"> <!-- navigation wrapper -->
+
+            <nav class="flex bg-gray-50 justify-between items-center">
+                
+                <div class=""> <!-- brand/logo wrapper -->
+                    <h1 class="text-green-700 font-bold px-16 py-10 md:text-2xl uppercase items-center text-xs md:flex sm:justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="md:h-16 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+                          </svg>
+                        <a href="/" class="block">Kasi Food</a>
+                    </h1>
+
+                    <div class="md:hidden"> <!-- menu icon -->
+                        <svg class="w-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                    </div>
+                </div>
+
+                <!-- navigation tabs -->
+                <ul class="md:flex p-5 items-end md:mx-16 hidden md:hiddem">
+                    <li class="px-8">
+                        <a href="#">
+                            <span>
+                                Home
+                            </span>
+                        </a>
+                    </li>
+                    <li class="px-8">
+                        <a href="#">
+                            <span>
+                                About
+                            </span>
+                        </a>
+                    </li>
+                    <li class="pl-8">
+                        <a href="#">
+                            <span>
+                                Contact Us
+                            </span>
+                        </a>
+                    </li>
+                    <li class="pl-8">
+                        <a href="#" class="text-white bg-green-600 px-8 py-2 rounded mx-2 cursor-pointer uppercase hover:bg-transparent hover:outline hover:outline-green-600 hover:text-gray-700">Log In</a>
+                    </li>
+                    <li class="pl-8">
+                        <a href="#" class="text-green-600 outline bg-transparent px-6 py-2 mx-2 rounded cursor-pointer uppercase hover:bg-green-600 hover:text-white">Sign Up</a>
+                    </li>
+                </ul>
+            </nav>
+
+           
+        </div> <!-- end navigation wrapper -->
+
+        <main class="px-16 py-6"> <!-- content main wrapper -->
+
+            <header class="mt-4">
+                <h2 class="text-6xl font-semibold text-gray-700 pb-1">Recipes</h2>
+                <h3 class="text-2xl text-gray-500">For Msanzi Pips</h3>
+            </header>
+
+            <div> <!-- latest recipes -->
+
+                <h4 class="font-semibold text-4xl text-gray-700 mt-10 mb-10 border-b pb-5 border-gray-200">Latest Recipes</h4>
+
+            <div class="gap-10 grid-cols-3 grid">
+
+                <div class="bg-slate-100 rounded shadow-sm overflow-hidden relative"> <!-- recipes cards -->
+
+                    <img src="https://images.pexels.com/photos/8753745/pexels-photo-8753745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="beef" class="h-80 w-full block object-cover ">
+
+                    <div class="px-2 py-2">
+                        <h3 class=" text-gray-600 font-bold py-1 text-sm">Beef Meal In Combo</h3>
+                        <h4 class="block text-red-300">by Daniel Washington</h4>
+                    </div>
+
+                    <div class="bg-gray-200 rounded-full absolute top-0 p-2 my-3 mx-3 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 text-red-400" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+                          </svg>
+                        <span class="text-red-500">30 Mins</span>
+                    </div>
+
+                </div>
+
+                <div class="bg-slate-100 rounded shadow-sm overflow-hidden relative"> <!-- recipes cards -->
+
+                    <img src="https://images.pexels.com/photos/2673353/pexels-photo-2673353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="beef" class="h-80 w-full block object-cover ">
+
+                    <div class="px-2 py-2">
+                        <h3 class=" text-gray-600 font-bold py-1 text-sm">Cooked Chicken On White Plate</h3>
+                        <h4 class="block text-red-300">by Lawrence Sekgoka</h4>
+                    </div>
+
+                    <div class="bg-gray-200 rounded-full absolute top-0 p-2 my-3 mx-3 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 text-red-400" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+                          </svg>
+                        <span class="text-red-500">50 Mins</span>
+                    </div>
+
+                </div>
+
+                <div class="bg-slate-100 rounded shadow-sm overflow-hidden relative"> <!-- recipes cards -->
+
+                    <img src="https://images.pexels.com/photos/533325/pexels-photo-533325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="beef" class="h-80 w-full block object-cover ">
+
+                    <div class="px-2 py-2">
+                        <h3 class=" text-gray-600 font-bold py-1 text-sm">Barbecues in Charcoal Grill
+                        </h3>
+                        <h4 class="block text-red-300">by Leah Magato</h4>
+                    </div>
+
+                    <div class="bg-gray-200 rounded-full absolute top-0 p-2 my-3 mx-3 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 text-red-400" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+                          </svg>
+                        <span class="text-red-500">35 Mins</span>
+                    </div>
+
+                </div>
+            </div>
+
+            </div>
+
+            <div> <!-- popular recipes -->
+
+                <h4 class="font-semibold text-4xl text-gray-700 mt-10 mb-5 border-b pb-5 border-gray-200">Popular Recipes</h4>
+
+                <div class="grid grid-cols-5 gap-10 h-auto"> <!-- popular cards -->
+
+                    <div class="bg-slate-100 rounded shadow-sm overflow-hidden relative"> <!-- recipes cards -->
+
+                        <img src="https://images.pexels.com/photos/1169004/pexels-photo-1169004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+    
+                        <div class="px-2 py-2">
+                            <h3 class=" text-gray-600 font-bold py-1 text-sm">Sliced Cake on Plate
+                            </h3>
+                            <h4 class="block text-red-300">by Andries Sebola</h4>
+                        </div>
+    
+                        <div class="bg-gray-200 rounded-full absolute top-0 p-2 my-3 mx-3 flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 text-red-400" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+                              </svg>
+                            <span class="text-red-500">2 days</span>
+                        </div>
+    
+                    </div>
+                    <div class="bg-slate-100 rounded shadow-sm overflow-hidden relative"> <!-- recipes cards -->
+
+                        <img src="https://images.pexels.com/photos/2067396/pexels-photo-2067396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+    
+                        <div class="px-2 py-2">
+                            <h3 class=" text-gray-600 font-bold py-1 text-sm">Stacked Brownies On Chopping Board
+
+                            </h3>
+                            <h4 class="block text-red-300">by Terence Manaka</h4>
+                        </div>
+    
+                        <div class="bg-gray-200 rounded-full absolute top-0 p-2 my-3 mx-3 flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 text-red-400" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+                              </svg>
+                            <span class="text-red-500">1 day</span>
+                        </div>
+    
+                    </div>
+                    <div class="bg-slate-100 rounded shadow-sm overflow-hidden relative"> <!-- recipes cards -->
+
+                        <img src="https://images.pexels.com/photos/3186737/pexels-photo-3186737.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+    
+                        <div class="px-2 py-2">
+                            <h3 class=" text-gray-600 font-bold py-1 text-sm">Piled Chocolate Cookies
+                            </h3>
+                            <h4 class="block text-red-300">by Thapelo Chaba</h4>
+                        </div>
+    
+                        <div class="bg-gray-200 rounded-full absolute top-0 p-2 my-3 mx-3 flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 text-red-400" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+                              </svg>
+                            <span class="text-red-500">40 Mins</span>
+                        </div>
+    
+                    </div>
+                    <div class="bg-slate-100 rounded shadow-sm overflow-hidden relative"> <!-- recipes cards -->
+
+                        <img src="https://images.pexels.com/photos/3060255/pexels-photo-3060255.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+    
+                        <div class="px-2 py-2">
+                            <h3 class=" text-gray-600 font-bold py-1 text-sm">Top View Of Donuts
+                            </h3>
+                            <h4 class="block text-red-300">by Elizabeth Zuan</h4>
+                        </div>
+    
+                        <div class="bg-gray-200 rounded-full absolute top-0 p-2 my-3 mx-3 flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 text-red-400" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+                              </svg>
+                            <span class="text-red-500">60 Mins</span>
+                        </div>
+    
+                    </div>
+                    <div class="bg-slate-100 rounded shadow-sm overflow-hidden relative"> <!-- recipes cards -->
+
+                        <img src="https://images.pexels.com/photos/2878737/pexels-photo-2878737.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+    
+                        <div class="px-2 py-2">
+                            <h3 class=" text-gray-600 font-bold py-1 text-sm">Chocolate Cake
+                            </h3>
+                            <h4 class="block text-red-300">by Nkama Melva</h4>
+                        </div>
+    
+                        <div class="bg-gray-200 rounded-full absolute top-0 p-2 my-3 mx-3 flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 text-red-400" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+                              </svg>
+                            <span class="text-red-500">2 Hrs</span>
+                        </div>
+    
+                    </div>
+
+                </div>
+
+                <div class="mt-10"> <!-- load more content wrapper -->
+
+                    <span class="text-white bg-red-600 px-8 py-2 rounded mx-2 cursor-pointer uppercase">Load More</span>
+
+                </div>
+
+            </div>
+
+        </main>
+
+
+    </div>
+</body>
+</html>
